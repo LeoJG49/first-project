@@ -1,0 +1,44 @@
+.container {
+    width: 70%;
+    margin: 10px 10px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 3px 13px 1px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.opinion-text-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.opinion-job,
+.opinion-name,
+.opinion-text {
+    margin-top: 10px;
+}
+
+.opinion-name {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.opinion-job {
+    font-size: 1.5rem;
+}
+
+.opinion-text {
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+}
